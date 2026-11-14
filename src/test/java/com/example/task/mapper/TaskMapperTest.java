@@ -1,6 +1,9 @@
-package com.example.base.task;
+package com.example.task.mapper;
 
-import com.example.base.task.dto.TaskRequest;
+import com.example.task.entity.Task;
+import com.example.task.enums.TaskStatus;
+
+import com.example.task.request.TaskRequest;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 

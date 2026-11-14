@@ -1,4 +1,4 @@
-package com.example.base.task;
+package com.example.task.enums;
 
 public enum TaskStatus {
     TODO, DOING, DONE

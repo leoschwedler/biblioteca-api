@@ -1,6 +1,6 @@
-package com.example.base.task.dto;
+package com.example.task.response;
 
-import com.example.base.task.TaskStatus;
+import com.example.task.enums.TaskStatus;
 
 import java.time.Instant;
 
@@ -9,7 +9,6 @@ public record TaskResponse(
         String title,
         String description,
         TaskStatus status,
-        Instant createdAt,
-        Instant updatedAt
+        Instant createdAt
 ) {
 }

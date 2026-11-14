@@ -1,7 +1,9 @@
-package com.example.base.task;
+package com.example.task.controller;
 
-import com.example.base.task.dto.TaskRequest;
-import com.example.base.task.dto.TaskResponse;
+import com.example.task.service.TaskService;
+
+import com.example.task.request.TaskRequest;
+import com.example.task.response.TaskResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

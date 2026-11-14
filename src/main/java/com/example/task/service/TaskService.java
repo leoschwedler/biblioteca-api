@@ -1,8 +1,12 @@
-package com.example.base.task;
+package com.example.task.service;
 
-import com.example.base.common.exception.ResourceNotFoundException;
-import com.example.base.task.dto.TaskRequest;
-import com.example.base.task.dto.TaskResponse;
+import com.example.task.entity.Task;
+import com.example.task.mapper.TaskMapper;
+import com.example.task.repository.TaskRepository;
+
+import com.example.exception.ResourceNotFoundException;
+import com.example.task.request.TaskRequest;
+import com.example.task.response.TaskResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
