@@ -1,9 +1,9 @@
-package com.example.task.mapper;
+package dev.schwedler.task.mapper;
 
-import com.example.task.entity.Task;
-import com.example.task.enums.TaskStatus;
+import dev.schwedler.task.entity.Task;
+import dev.schwedler.task.enums.TaskStatus;
 
-import com.example.task.request.TaskRequest;
+import dev.schwedler.task.request.TaskRequest;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 

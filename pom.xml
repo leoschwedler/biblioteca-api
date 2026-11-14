@@ -9,11 +9,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.example</groupId>
-    <artifactId>spring-boot-base</artifactId>
+    <groupId>dev.schwedler</groupId>
+    <artifactId>biblioteca.pi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-base</name>
-    <description>Projeto base Spring Boot para treino</description>
+    <name>biblioteca.pi</name>
+    <description>API DA BIBLIOTECA</description>
 
     <properties>
         <java.version>17</java.version>

@@ -1,9 +1,9 @@
-package com.example.task.mapper;
+package dev.schwedler.task.mapper;
 
-import com.example.task.entity.Task;
+import dev.schwedler.task.entity.Task;
 
-import com.example.task.request.TaskRequest;
-import com.example.task.response.TaskResponse;
+import dev.schwedler.task.request.TaskRequest;
+import dev.schwedler.task.response.TaskResponse;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

@@ -1,12 +1,12 @@
-package com.example;
+package dev.schwedler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BaseApplication {
+public class BibliotecaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BaseApplication.class, args);
+        SpringApplication.run(BibliotecaApplication.class, args);
     }
 }

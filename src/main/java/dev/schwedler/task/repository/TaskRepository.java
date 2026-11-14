@@ -1,6 +1,6 @@
-package com.example.task.repository;
+package dev.schwedler.task.repository;
 
-import com.example.task.entity.Task;
+import dev.schwedler.task.entity.Task;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

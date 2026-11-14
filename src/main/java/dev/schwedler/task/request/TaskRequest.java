@@ -1,6 +1,6 @@
-package com.example.task.request;
+package dev.schwedler.task.request;
 
-import com.example.task.enums.TaskStatus;
+import dev.schwedler.task.enums.TaskStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

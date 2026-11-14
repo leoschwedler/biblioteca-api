@@ -1,6 +1,6 @@
-package com.example.task.entity;
+package dev.schwedler.task.entity;
 
-import com.example.task.enums.TaskStatus;
+import dev.schwedler.task.enums.TaskStatus;
 
 import jakarta.persistence.*;
 import lombok.*;

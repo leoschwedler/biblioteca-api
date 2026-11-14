@@ -1,9 +1,9 @@
-package com.example.task.controller;
+package dev.schwedler.task.controller;
 
-import com.example.task.service.TaskService;
+import dev.schwedler.task.service.TaskService;
 
-import com.example.task.request.TaskRequest;
-import com.example.task.response.TaskResponse;
+import dev.schwedler.task.request.TaskRequest;
+import dev.schwedler.task.response.TaskResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

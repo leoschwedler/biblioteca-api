@@ -1,6 +1,6 @@
-package com.example.task.response;
+package dev.schwedler.task.response;
 
-import com.example.task.enums.TaskStatus;
+import dev.schwedler.task.enums.TaskStatus;
 
 import java.time.Instant;
 

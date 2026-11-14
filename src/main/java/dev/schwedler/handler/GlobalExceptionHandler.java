@@ -1,7 +1,7 @@
-package com.example.handler;
+package dev.schwedler.handler;
 
-import com.example.exception.ErrorResponse;
-import com.example.exception.ResourceNotFoundException;
+import dev.schwedler.exception.ErrorResponse;
+import dev.schwedler.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
