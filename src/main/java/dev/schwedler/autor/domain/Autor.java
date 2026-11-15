@@ -6,6 +6,7 @@ import lombok.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -14,7 +15,6 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class Autor {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,5 +33,5 @@ public class Autor {
             joinColumns = @JoinColumn(name = "id_autor"),
             inverseJoinColumns = @JoinColumn(name = "id_livro")
     )
-    private Set<Livro> livros;
+    private Set<Livro> livros = new HashSet<>();
 }
