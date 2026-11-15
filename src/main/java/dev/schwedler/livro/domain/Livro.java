@@ -29,7 +29,7 @@ public class Livro {
     @Enumerated(EnumType.STRING)
     private Status status;
     @Column(name = "criado_em", insertable = false, updatable = false)
-    private LocalDateTime criado_em;
+    private LocalDateTime criadoEm;
     @ManyToMany(mappedBy = "livros", fetch = FetchType.LAZY)
     private Set<Autor> autores;
 }
