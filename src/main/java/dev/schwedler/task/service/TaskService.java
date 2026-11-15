@@ -4,7 +4,7 @@ import dev.schwedler.task.entity.Task;
 import dev.schwedler.task.mapper.TaskMapper;
 import dev.schwedler.task.repository.TaskRepository;
 
-import dev.schwedler.exception.ResourceNotFoundException;
+import dev.schwedler.exception.NotFoundException;
 import dev.schwedler.task.request.TaskRequest;
 import dev.schwedler.task.response.TaskResponse;
 import lombok.RequiredArgsConstructor;
@@ -49,6 +49,6 @@ public class TaskService {
 
     private Task getOrThrow(Long id) {
         return repository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Task %d não encontrada".formatted(id)));
+                .orElseThrow(() -> new NotFoundException("Task %d não encontrada".formatted(id)));
     }
 }
